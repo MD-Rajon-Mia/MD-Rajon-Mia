@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /*font-family: 'Handlee', 'cursive';*/
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section-title h3{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: -70px;
+}
+
+.hr-style{
+    font-weight: bolder;
+    font-size: 50px;
+    height: 40px;
+    border-bottom: none;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-image: url('gg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-icon{
+    color: rgb(255, 255, 255);
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+.btn{
+    margin-right: 40px;
+}
+.banner-container{
+    height: 100vh;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background: rgba(7, 101, 189, 0.5);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 7px;
+}
+.mr{
+    margin-right: 10px;
+}
+/*header ends*/
+/*features start */
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.featurs-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.featurs-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    cursor: pointer;
+}
+.icon-style{
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    font-size: 70px;
+    margin: 5px 0;
+    margin-bottom: 10px;
+}
+ .font{
+     font-weight: bold;
+     text-transform: capitalize;
+ }
+/*features ends */
+/* About-me start */
+#about-me{
+    padding: 4%  10%;
+    background: #e8ded2;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: light;
+}
+.rtrt{
+    margin-right: 10px;
+    color: white;
+}
+.basic-dese span{
+    font-weight: 700 !important;
+}
+.basic-dese .romjan{
+   margin-top: 30px;
+}
+.star i{
+   margin-left: 10px;
+   color: rgb(66, 50, 205);
+}
+/* About-me ends */ 
+/* tutorils starts */
+#tutorils{
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+    margin-top: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorils ends */
+/* feedback starts */
+#feedback{
+    padding-left: 5% 10%;
+    background: #5eaaa8;
+}
+.rom{
+    width: 120px;
+    height: 120px;
+}
+.carousel-item{
+    text-align: center;
+    padding: 5% 15%;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+/* feedback ends */
+
+/* contact-manu starts */
+#contact{
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* contact-manu ends */
+/* footer starts */
+footer{
+    padding: 1% 10%;
+    background: #056676;
+}
+footer a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: yellow;
+}
+footer a:hover{
+    color: rgb(0, 0, 0);
+
+}
+/* footer ends */
+
+@media (max-width:768px){
+    .nav-link{
+        background: rgb(0, 0, 0.7);
+    }
+}
+
+
